@@ -1,7 +1,15 @@
+body {
+    background-image: url('coffeeShop.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    background-color: aquamarine;
 }
 
 td,
@@ -18,3 +26,8 @@ tr:nth-child(even) {
 #checkout {
     text-align: right;
 }
+
+#checkOutButton{
+    margin-bottom: 20px;
+}
+
